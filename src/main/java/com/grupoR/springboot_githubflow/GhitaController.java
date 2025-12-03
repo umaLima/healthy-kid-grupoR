@@ -8,6 +8,7 @@ public class GhitaController {
 
     @GetMapping("/ghita")
     public String saludo() {
-        return "Hola, soy Ghita!";
+    	return "Hola, soy Ghita y he cambiado el texto!";
+
     }
 }
